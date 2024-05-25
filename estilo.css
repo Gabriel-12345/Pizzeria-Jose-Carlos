@@ -30,13 +30,13 @@ html {
 
 nav li {
     background-color: rgb(68, 33, 33);
-    padding: 0%;
+    padding: 1%;
     width: 80%;
     max-width: 1000px;
     margin: auto;
     text-align: center;
     border-radius: 10%;
-    font-size: 30px;
+    font-size: 40px;
     list-style: none;
 
 }
@@ -45,13 +45,12 @@ nav a:hover {
     background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 10px;
-
 }
 
 nav a {
 
     text-decoration: none;
-
+    padding: 6px;
 
 }
 
@@ -87,6 +86,7 @@ h3 {
 
 footer ul {
     font-size: 20px;
+    list-style: none;
 }
 
 footer h3 {
@@ -102,4 +102,18 @@ footer nav a {
 h4 {
     font-size: 23px;
     color: blueviolet;
+}
+
+
+ul {
+    list-style: none;
+}
+
+article {
+    text-align-last: center;
+}
+
+footer li {
+    align-items: center;
+    display: flex;
 }
